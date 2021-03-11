@@ -1,0 +1,11 @@
+BASE_URL: "http://api.keyou.site:8000"
+
+
+# log
+LOG:
+  FILENAME: "test.log"
+  NAME: "root"
+  LEVEL: "DEBUG"
+  FMT: "%(asctime)s ---%(name)s--- [%(filename)s-->line:%(lineno)d] - %(levelname)s: %(message)s"
+  HANDLER_LEVEL: "INFO"
+  FILE_LEVEL: "INFO"
